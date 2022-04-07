@@ -1,0 +1,101 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+.flex-container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 3%;
+}
+.menubtn {
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  /* margin: auto; */
+  font-size: 25px;
+}
+
+.logobtn {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border: none;
+  font-size: 17px;
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* justify-content: center; */
+}
+.logoicon {
+  height: 70px;
+  width: 70px;
+  background-color: aliceblue;
+}
+.searchicon {
+  height: 18px;
+}
+.searchbtn {
+  height: 30px;
+  border: none;
+  background-color: white;
+  /* margin: auto; */
+}
+.phoneicon {
+  height: 18px;
+}
+.phonebtn {
+  height: 30px;
+  border: none;
+  background-color: white;
+  /* margin: auto; */
+}
+.favicon {
+  height: 21px;
+}
+.favbtn {
+  height: 30px;
+  border: none;
+  background-color: white;
+  /* margin: auto; */
+}
+.carticon {
+  height: 26px;
+}
+.cartbtn {
+  height: 30px;
+  border: none;
+  background-color: white;
+  /* margin: auto; */
+}
+.flex-container {
+  margin: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.prodtypes {
+  margin: 3% 5%;
+}
+td {
+  width: 25%;
+  padding: 20px;
+}
+.hlink {
+  text-decoration: none;
+  color: rgb(204, 155, 31);
+  font-size: 20px;
+  font-weight: 100;
+}
+a:hover {
+  color: goldenrod;
+}
+.mySlides {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+.tanil {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 0 0 0;
+  text-align: center;
+}

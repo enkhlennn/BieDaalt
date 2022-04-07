@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap");
+
+@media only screen and (min-width: 768px) {
+  * {
+    letter-spacing: 0.1vw;
+    font-size: 0.9vw;
+    line-height: 2.5vw;
+  }
+  body {
+    font-family: "Bebas Neue", cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: goldenrod;
+  }
+  .bookform .regheader{
+    text-align: center;
+  }
+  a,
+  p {
+    color: rgb(37, 37, 37);
+  }
+  header {
+    width: 100%;
+  }
+  .logoicon {
+    width: 6%;
+    min-width: 60px;
+    background-color: aliceblue;
+    margin-left: 47%;
+  }
+  .navbar {
+    width: 100%;
+    padding: 1.5rem 0;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    z-index: 1;
+    border-bottom: 0.1px solid rgba(90, 90, 90, 0.171);
+  }
+  nav .hlink {
+    color: rgb(204, 155, 31);
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+    padding: 0 6rem;
+  }
+  .main {
+    margin: 5% auto;
+  }
+  .category {
+    margin: 5% auto;
+  }
+  .carousel {
+    width: 100%;
+    /* margin: 5% 0; */
+  }
+  .carousel-item {
+    position: relative;
+    background-position: 100%;
+    background-size: cover;
+  }
+  .citem,
+  .bsp {
+    width: 100%;
+  }
+  .collections .bsp {
+    border: 20px rgba(230, 230, 230, 0) solid;
+    margin: 2% 0;
+  }
+  .categories {
+    margin: 5% 0 10% 0;
+  }
+  .productInfo {
+    padding: 5% 0;
+  }
+  footer {
+    font-family: Lato, sans-serif;
+    background-color: rgba(243, 243, 243, 0.637);
+    font-weight: lighter;
+    padding: 3%;
+    margin-top: auto;
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
+  }
+  footer h5 {
+    font-weight: 700;
+  }
+  /* header .fa-heart {
+  margin-left: 15%;
+}
+header .fa-search,
+.fa-heart,
+.fa-shopping-cart {
+  padding-inline-start: 3%;
+  color: rgb(204, 155, 31);
+} */
+  /* footer a:hover {
+  color: black;
+  text-decoration: underline;
+} */
+.bookform{
+  width: 400px;
+  height: fit-content;
+}
+  .order button,
+  .bookform button {
+    margin: 0 25%;
+    width: 50%;
+    cursor: pointer;
+    background-color: rgb(202, 159, 49);
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0.671);
+  }
+  .order {
+    margin: 5% 0 10% 35%;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: 1vw;
+  }
+  .bookform h4 {
+    margin-top: 2.5%;
+  }
+  .tbs,
+  .tbl,
+  .tbd {
+    padding: 1% 0 0 1%;
+    /* height: 30px; */
+    border: none;
+    color: rgb(37, 37, 37);
+    border-bottom: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .order .row {
+    margin: 10% 0;
+    font-size: 1vw;
+  }
+  .tanil h5 {
+    font-weight: 700;
+    line-height: 2.5vw;
+  }
+  .tanil {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+    margin: 10% 20%;
+    /* text-align: justify; */
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  * {
+    letter-spacing: 0.1vw;
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+  button {
+    cursor: pointer;
+  }
+  body {
+    font-family: "Bebas Neue", cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: none;
+  }
+  .bookform .regheader{
+    text-align: center;
+  }
+  a:hover {
+    color: goldenrod;
+  }
+  a,
+  p,
+  .fas {
+    color: rgb(37, 37, 37);
+  }
+  header {
+    width: 100%;
+  }
+  .logoicon {
+    width: 12%;
+    background-color: aliceblue;
+    margin-left: 43%;
+  }
+  .navbar-toggler {
+    margin-top: -12%;
+  }
+  .navbar {
+    margin-left: 2%;
+    border-bottom: 0.1px solid rgba(90, 90, 90, 0.171);
+    background-color: rgb(255, 255, 255);
+  }
+  nav .hlink {
+    color: rgb(204, 155, 31);
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1vw;
+    font-size: 3vw;
+    line-height: 3rem;
+  }
+  .main {
+    margin: 5% auto;
+  }
+  .category {
+    margin: 5% auto;
+  }
+  .carousel {
+    width: 100%;
+    /* margin: 5% 0; */
+  }
+  .carousel-item {
+    position: relative;
+    background-position: 100%;
+    background-size: cover;
+  }
+  .citem,
+  .bsp {
+    width: 100%;
+  }
+  .categories {
+    margin: 5% 0 10% 0;
+  }
+  .productInfo {
+    padding: 5% 0;
+  }
+  footer {
+    font-family: Lato, sans-serif;
+    background-color: rgba(243, 243, 243, 0.637);
+    font-weight: lighter;
+    padding: 3%;
+    margin-top: auto;
+
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
+  }
+  footer h5 {
+    font-weight: 700;
+  }
+  /* header .fa-heart {
+  margin-left: 15%;
+}
+header .fa-search,
+.fa-heart,
+.fa-shopping-cart {
+  padding-inline-start: 3%;
+  color: rgb(204, 155, 31);
+} */
+
+  /* footer a:hover {
+  color: black;
+  text-decoration: underline;
+} */
+  .order button,
+  .bookform button
+  {
+    margin: 0 25%;
+    cursor: pointer;
+    width: 50%;
+    background-color: rgb(202, 159, 49);
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0.671);
+  }
+  .order {
+    margin: 5% 0 10% 10%;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.2vw;
+  }
+  .bookform h4 {
+    margin: 2.5% 0;
+  }
+  .tbs,
+  .tbl,
+  .tbd {
+    padding: 1% 0px 1% 1%;
+    height: 30px;
+    border: none;
+    color: rgb(37, 37, 37);
+    border-bottom: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .regheader{
+    text-align: center;
+  }
+  .order .row {
+    margin: 10% 0;
+    font-size: 2.2vw;
+  }
+  .tanil h5 {
+    font-weight: 700;
+    line-height: 3.5vw;
+  }
+  .tanil {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+    margin: 10% 10% 15% 10%;
+    /* text-align: justify; */
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+  * {
+    letter-spacing: 0.1vw;
+    font-size: 1.4vw;
+    line-height: 3.5vw;
+  }
+  body {
+    font-family: "Bebas Neue", cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    color: goldenrod;
+  }
+  a,
+  p,
+  .fas {
+    color: rgb(37, 37, 37);
+  }
+  header {
+    width: 100%;
+  }
+  .logoicon {
+    width: 9%;
+    /* min-width: 60px; */
+    background-color: aliceblue;
+    margin-left: 45%;
+  }
+  .navbar-toggler {
+    margin-top: -8%;
+  }
+  .navbar {
+    margin-left: 2%;
+    border-bottom: 0.1px solid rgba(90, 90, 90, 0.171);
+  }
+  nav .hlink {
+    color: rgb(204, 155, 31);
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1vw;
+    font-size: 2vw;
+    line-height: 3rem;
+  }
+  .bookform .regheader{
+    text-align: center;
+  }
+  .main {
+    margin: 5% auto;
+  }
+  .category {
+    margin: 5% auto;
+  }
+  .carousel {
+    width: 100%;
+    /* margin: 5% 0; */
+  }
+  .carousel-item {
+    position: relative;
+    background-position: 100%;
+    background-size: cover;
+  }
+  .citem,
+  .bsp {
+    width: 100%;
+  }
+  .categories {
+    margin: 5% 0 10% 0;
+  }
+  .productInfo {
+    padding: 5% 0;
+  }
+  footer {
+    font-family: Lato, sans-serif;
+    background-color: rgba(243, 243, 243, 0.637);
+    font-weight: lighter;
+    padding: 3%;
+    margin-top: auto;
+
+    /* position: absolute;
+    width: 100%;
+    bottom: 0; */
+  }
+  footer h5 {
+    font-weight: 700;
+  }
+  /* header .fa-heart {
+  margin-left: 15%;
+}
+header .fa-search,
+.fa-heart,
+.fa-shopping-cart {
+  padding-inline-start: 3%;
+  color: rgb(204, 155, 31);
+} */
+
+  /* footer a:hover {
+  color: black;
+  text-decoration: underline;
+} */
+.bookform .regheader{
+  text-align: center;
+}
+  .order button,
+  .bookform button
+  {
+    margin: 0 25%;
+    cursor: pointer;
+    width: 50%;
+    background-color: rgb(202, 159, 49);
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(240, 248, 255, 0.671);
+  }
+  .order {
+    margin: 5% 0 10% 15%;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.6vw;
+  }
+  .bookform h4 {
+    margin: 2.5% 0;
+  }
+  .tbs,
+  .tbl,
+  .tbd {
+    padding: 1% 1% 0 1%;
+    height: 30px;
+    border: none;
+    color: rgb(37, 37, 37);
+    border-bottom: 2px solid grey;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+  }
+  .order .row {
+    margin: 10% 0;
+    font-size: 1.6vw;
+  }
+  .tanil h5 {
+    font-weight: 700;
+    line-height: 2.5vw;
+  }
+  .tanil {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 54, 54);
+    margin: 10% 15%;
+    /* text-align: justify; */
+  }
+} ;
